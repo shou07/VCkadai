@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body{
+	font-family: 'Hiragino Kaku Gothic Pro','Meiryo',sans-serif;
+	font-size: 15px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background-color: #FFFFFF
+}
+.ie{
+	text-align: center;
+}
+.logo{
+	  text-align: center;
+}
+ul.ddmenu{
+	margin: 0px;
+	padding:0px 0px 0px 15px;
+	background-color:#cc0000;
+}
+ul.ddmenu li{
+	width: 125px;
+	display: inline-block;
+	list-style-type:none;
+	position: relative;
+}
+ul.ddmenu a{
+	background-color:#cc0000;
+	color:white;
+	line-height: 40px;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+}
+ul.ddmenu ul{
+	display:none;
+	margin:0px;
+	padding:0px;
+	position:absolute;
+}
+ul.ddmenu a:hover{
+	background-color:#ffdddd;
+	color:#dd0000;
+}
+ul.ddmenu li:hover ul{
+	display: block;
+}
+h1{
+	color:#44110E;
+	font-size:26px;
+	border-bottom: 1px solid #44110e;
+	margin:20px 0px 30px 0px;
+	padding:10px 10px 10px 20px;
+}
+
+.niku{
+	background-color:#44110E;
+	color:#FFFFFF;
+	floaat:left;
+	width:50%;
+	
+}
+.wrap{display:flex;
+	flex-wrap:wrap;
+	
+}
+.sumi img {
+	width: 80%;
+}
+
+.niku img {
+	width: 100%;
+}
